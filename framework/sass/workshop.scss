@@ -1,0 +1,27 @@
+@import "variables";
+@import "mixins";
+
+/* Styles specific to this workshop
+------------------------------------*/
+.who-uses {
+  img {
+    height: 150px;
+    margin-top: 20px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+th {
+  font-weight: 600;
+  text-align: left;
+}
+td,
+th {
+  border: 1px solid rgb(224, 224, 224);
+  padding: 5px 10px;
+  vertical-align: top;
+}
